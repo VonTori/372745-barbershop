@@ -37,6 +37,15 @@ body {
   width: 630px;
 }
 
+.page-nav ul {
+  list-style: none;
+}
+
+.page-nav li {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .user-block {
   float: right;
   width: 140px;
@@ -66,7 +75,6 @@ body {
 
 .paginator {
   clear: both;
-  width: 193px;
   margin-left: 240px;
 }
 
@@ -95,7 +103,7 @@ body {
 
 .footer-social {
   float: left;
-  width: 180px;
+  width: 190px;
 }
 
 .footer-copyright {
