@@ -149,7 +149,7 @@ body {
 .breadcrumbs a {
   position: relative;
   display: inline;
-  padding-right: 40px;
+  margin-right: 40px;
   color: #000000;
   text-decoration: none;
 }
@@ -172,7 +172,7 @@ body {
   width: 8px;
   height: 8px;
   top: 4px;
-  right: 15px;
+  right: -25px;
   background-color: #000000;
   transform: rotate(45deg);
 }
@@ -188,21 +188,22 @@ body {
 
 .item-options fieldset {
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 30px;
+  padding: 0;
   font-size: 14px;
   line-height: 18px;
   border: none;
 }
 
 .item-options legend {
-  margin-bottom: 23px;
-  margin-left: -10px;
+  margin-bottom: 30px;
   font-size: 24px;
   line-height: 30px;
 }
 
 .item-options p {
   margin: 0;
+  margin-left: 10px;
 }
 
 input[type="checkbox"],
