@@ -502,8 +502,7 @@ input[type="radio"]:disabled + label:hover {
   padding-top: 55px;
   padding-bottom: 40px;
   color: #ffffff;
-  background-color: #222222;
-  background: url("../img/background-footer.jpg") ;
+  background: #222222 url("../img/background-footer.jpg") ;
   box-shadow: inset 0px 30px 50px -15px rgba(0, 0, 0, 0.8);
 }
 
